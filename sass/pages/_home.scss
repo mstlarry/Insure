@@ -1,0 +1,34 @@
+.horz-row{
+  content: "";
+  height: .2rem;
+  width: 25%;
+  background-color: $color-grey-dark;
+}
+
+.section-features{
+  padding: 10rem 0;
+}
+
+.section-work{
+  background-color: $color-primary;
+  padding: 4.5rem;
+  margin-bottom: 15rem;
+  position: relative;
+}
+
+.work{
+  color: $color-white;
+
+  &__btn{
+    position: absolute;
+    right: 6rem;
+    top: 6rem;
+  }
+
+  &__img{
+    height: 15rem; 
+    position: absolute; 
+    right: 0; 
+    top: 0;
+  }
+}

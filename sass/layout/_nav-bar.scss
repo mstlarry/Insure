@@ -1,0 +1,40 @@
+.top-bar{
+  padding: 5rem 0;
+  //background-color: orange;
+
+  &__logo-box{
+    transform: translateY(.7rem);
+  }
+
+  &__nav{
+    width: 65%;
+    display: inline-block;
+  }
+
+  &__btn{
+    transform: translateY(-.5rem);
+  }
+
+  &__list{
+    list-style: none;
+  }
+
+  &__item{
+    display: inline-block;
+
+    &:not(:last-child){
+      margin-right: 2rem;
+    }
+  }
+
+  &__link{
+    &:link,
+    &:visited{
+      font-size: 1.5rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $color-grey-dark-1;
+    }
+  }
+}
+

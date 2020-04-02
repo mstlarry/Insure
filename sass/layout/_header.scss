@@ -1,0 +1,50 @@
+.header{
+  padding: 7rem 0 4rem;
+  background-color: $color-primary;
+  //height: 70vh;
+  color: $color-white;
+  position: relative;
+  margin-bottom: 20rem;
+
+  &__left-contain{
+    margin: 5rem 0 0 0;
+  }
+  
+  &__left-box{
+    color: #fff;
+    position: absolute;
+    top: 32rem;
+    left: -2rem;
+  }
+
+  &__left-img{
+    color: #fff; // Just to avoid SASS compilation error, does nothing
+  }
+
+  &__right-contain{
+    color: #fff; // Just to avoid SASS compilation error, does nothing
+  }
+
+  &__right-picture-box{
+    position: relative;
+  }
+
+  &__right-picture{
+    width: 100%; 
+    height: auto; 
+    position: absolute; 
+    top: 0; 
+    left: 0
+  }
+
+  &__right-box{
+    position: absolute; 
+    top: 0; 
+    right: 0
+  }
+
+  &__right-img{
+    height: 45rem;
+  }
+  
+}
